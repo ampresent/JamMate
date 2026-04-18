@@ -1,0 +1,1 @@
+# JamMate - AI Jamming Partner
