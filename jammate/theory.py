@@ -139,8 +139,14 @@ def get_key_from_chords(chords: list[str]) -> str | None:
         score = 0
         for chord in chords:
             root, _ = parse_chord_name(chord)
-            if any(root in d for d in diatonic):
+            # Match exact root against diatonic chord roots
+            diatonic_roots = [parse_chord_name(d)[0] for d in diatonic]
+            if root in diatonic_roots:
                 score += 1
+        # Bonus: if I chord (first diatonic) appears, extra weight
+        tonic = parse_chord_name(diatonic[0])[0]
+        tonic_count = sum(1 for c in chords if parse_chord_name(c)[0] == tonic)
+        score += tonic_count * 0.5
         scores[key] = score
 
     return max(scores, key=scores.get) if scores else None

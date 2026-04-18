@@ -19,6 +19,7 @@ from jammate.ui import (
     print_header, print_help, print_status,
     print_history, print_predictions, print_session_summary,
 )
+from jammate.recorder import SessionRecorder
 
 
 def main():
