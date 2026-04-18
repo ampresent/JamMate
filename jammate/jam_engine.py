@@ -14,9 +14,11 @@ from pathlib import Path
 
 from .chord_recognition import detect_chords_from_audio
 from .mimo_client import MiMoClient, create_client_from_config
+from .progression_gen import ProgressionGenerator
 from .synth import AccompanimentGenerator
 from .audio_capture import AudioCapture, play_audio
 from .theory import get_key_from_chords
+from .visualizer import render_jam_status
 
 
 class JamSession:
@@ -73,6 +75,7 @@ class JamEngine:
             tempo=self.tempo,
         )
         self.mimo: Optional[MiMoClient] = None
+        self.local_gen = ProgressionGenerator(key='C', style=self.style)
         self.session = JamSession()
         self.session.bpm = self.tempo
         self.session.style = self.style
@@ -135,12 +138,14 @@ class JamEngine:
             self.session.add_chord(chord, confidence)
             beat_count += 1
 
-            # 4. Display
+            # 4. Display with visualizer
             history = self.session.chords_only[-self.lookback:]
             key = self.session.detected_key
 
-            print(f"\r🎸 {chord:8s} ({confidence:.0%}) | "
-                  f"History: {' → '.join(history[-6:])}", end="", flush=True)
+            # Build display
+            display = render_jam_status(chord, confidence, history,
+                                         [], key, beat=beat_count)
+            print(f"\033[2J\033[H{display}", end="", flush=True)
 
             # 5. Predict next chords (every 2 detections to reduce API calls)
             if beat_count % 2 == 0:
@@ -176,10 +181,9 @@ class JamEngine:
             except Exception as e:
                 print(f"\n   [MiMo] Error: {e}, using fallback")
 
-        # Fallback to local theory
-        from .theory import COMMON_PROGRESSIONS
-        prog = COMMON_PROGRESSIONS.get(self.style, COMMON_PROGRESSIONS['jazz'])
-        return [f"C{'' if i in [0, 2, 3] else 'm'}" for i in prog[:self.predict_count]]
+        # Fallback to local generator
+        self.local_gen.key = key or 'C'
+        return self.local_gen.generate_next(self.predict_count, history)
 
     def analyze_file(self, filepath: str) -> dict:
         """
