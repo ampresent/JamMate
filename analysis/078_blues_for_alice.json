@@ -1,0 +1,64 @@
+{
+  "id": 78,
+  "title": "Blues For Alice",
+  "composer": "Charlie Parker",
+  "key": "F",
+  "tempo": 160,
+  "style": "jazz",
+  "form": "blues",
+  "bars": 12,
+  "progression": [
+    "Fmaj7",
+    "Em7",
+    "Eb7",
+    "Dm7",
+    "Db7",
+    "Cm7",
+    "F7",
+    "Bbm7",
+    "Bbm7",
+    "Am7",
+    "Ab7",
+    "Gm7"
+  ],
+  "analysis": {
+    "detected_key": "F",
+    "chord_count": 12,
+    "unique_chords": 11,
+    "chord_diversity": 0.917,
+    "avg_complexity": 33.3,
+    "iivi_count": 1,
+    "tritone_subs": 0,
+    "tonal_range": 10,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 8,
+    "unique_chord_list": [
+      "Fmaj7",
+      "Em7",
+      "Eb7",
+      "Dm7",
+      "Db7",
+      "Cm7",
+      "F7",
+      "Bbm7",
+      "Am7",
+      "Ab7",
+      "Gm7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/078_blues_for_alice.wav",
+    "audio_duration_sec": 18.0,
+    "recognition_accuracy": 0.167
+  },
+  "score": {
+    "harmonic_richness": 69.2,
+    "structural_coherence": 47.0,
+    "playability": 55.3,
+    "jazz_authenticity": 60,
+    "overall_score": 57.5,
+    "grade": "D"
+  }
+}

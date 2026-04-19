@@ -1,0 +1,68 @@
+{
+  "id": 35,
+  "title": "Footprints",
+  "composer": "Wayne Shorter",
+  "key": "Cm",
+  "tempo": 130,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 24,
+  "progression": [
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Dm7b5",
+    "G7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Dm7b5",
+    "G7",
+    "Cm7",
+    "Cm7"
+  ],
+  "analysis": {
+    "detected_key": "C",
+    "chord_count": 24,
+    "unique_chords": 3,
+    "chord_diversity": 0.125,
+    "avg_complexity": 35.4,
+    "iivi_count": 2,
+    "tritone_subs": 0,
+    "tonal_range": 3,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Cm7",
+      "Dm7b5",
+      "G7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/035_footprints.wav",
+    "audio_duration_sec": 44.31,
+    "recognition_accuracy": 0.458
+  },
+  "score": {
+    "harmonic_richness": 47.1,
+    "structural_coherence": 35.0,
+    "playability": 33.2,
+    "jazz_authenticity": 50,
+    "overall_score": 41.4,
+    "grade": "F"
+  }
+}

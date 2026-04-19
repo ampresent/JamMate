@@ -1,0 +1,61 @@
+{
+  "id": 94,
+  "title": "Moanin'",
+  "composer": "Bobby Timmons",
+  "key": "F",
+  "tempo": 130,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Fm7",
+    "Fm7",
+    "Fm7",
+    "Fm7",
+    "Fm7",
+    "Fm7",
+    "Fm7",
+    "Fm7",
+    "Db7",
+    "Db7",
+    "Fm7",
+    "Fm7",
+    "Gm7",
+    "C7",
+    "Fm7",
+    "Fm7"
+  ],
+  "analysis": {
+    "detected_key": "F",
+    "chord_count": 16,
+    "unique_chords": 4,
+    "chord_diversity": 0.25,
+    "avg_complexity": 34.1,
+    "iivi_count": 1,
+    "tritone_subs": 0,
+    "tonal_range": 4,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Fm7",
+      "Db7",
+      "Gm7",
+      "C7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/094_moanin.wav",
+    "audio_duration_sec": 29.54,
+    "recognition_accuracy": 0.562
+  },
+  "score": {
+    "harmonic_richness": 49.8,
+    "structural_coherence": 30.0,
+    "playability": 43.2,
+    "jazz_authenticity": 50,
+    "overall_score": 42.6,
+    "grade": "F"
+  }
+}

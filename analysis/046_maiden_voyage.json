@@ -1,0 +1,59 @@
+{
+  "id": 46,
+  "title": "Maiden Voyage",
+  "composer": "Herbie Hancock",
+  "key": "D",
+  "tempo": 130,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "D7sus4",
+    "D7sus4",
+    "D7sus4",
+    "D7sus4",
+    "F7sus4",
+    "F7sus4",
+    "F7sus4",
+    "F7sus4",
+    "D7sus4",
+    "D7sus4",
+    "D7sus4",
+    "D7sus4",
+    "F7sus4",
+    "F7sus4",
+    "F7sus4",
+    "F7sus4"
+  ],
+  "analysis": {
+    "detected_key": "F",
+    "chord_count": 16,
+    "unique_chords": 2,
+    "chord_diversity": 0.125,
+    "avg_complexity": 10.0,
+    "iivi_count": 0,
+    "tritone_subs": 0,
+    "tonal_range": 2,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "D7sus4",
+      "F7sus4"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/046_maiden_voyage.wav",
+    "audio_duration_sec": 29.54,
+    "recognition_accuracy": 0.375
+  },
+  "score": {
+    "harmonic_richness": 26.8,
+    "structural_coherence": 19.0,
+    "playability": 27.5,
+    "jazz_authenticity": 40,
+    "overall_score": 27.9,
+    "grade": "F"
+  }
+}

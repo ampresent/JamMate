@@ -1,0 +1,56 @@
+{
+  "id": 48,
+  "title": "Mr. PC",
+  "composer": "John Coltrane",
+  "key": "Cm",
+  "tempo": 200,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 12,
+  "progression": [
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Fm7",
+    "Fm7",
+    "Cm7",
+    "Cm7",
+    "G7",
+    "Fm7",
+    "Cm7",
+    "Cm7"
+  ],
+  "analysis": {
+    "detected_key": "C",
+    "chord_count": 12,
+    "unique_chords": 3,
+    "chord_diversity": 0.25,
+    "avg_complexity": 34.6,
+    "iivi_count": 0,
+    "tritone_subs": 0,
+    "tonal_range": 3,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Cm7",
+      "Fm7",
+      "G7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/048_mr._pc.wav",
+    "audio_duration_sec": 14.4,
+    "recognition_accuracy": 0.083
+  },
+  "score": {
+    "harmonic_richness": 50.2,
+    "structural_coherence": 21.0,
+    "playability": 31.7,
+    "jazz_authenticity": 40,
+    "overall_score": 35.2,
+    "grade": "F"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 55,
+  "title": "Pent Up House",
+  "composer": "Sonny Rollins",
+  "key": "G",
+  "tempo": 180,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Am7",
+    "D7",
+    "Gmaj7",
+    "Gmaj7",
+    "Bm7",
+    "E7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "D7",
+    "Gmaj7",
+    "Gmaj7",
+    "Bm7",
+    "E7",
+    "Am7",
+    "Am7"
+  ],
+  "analysis": {
+    "detected_key": "G",
+    "chord_count": 16,
+    "unique_chords": 5,
+    "chord_diversity": 0.312,
+    "avg_complexity": 33.8,
+    "iivi_count": 6,
+    "tritone_subs": 0,
+    "tonal_range": 5,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Am7",
+      "D7",
+      "Gmaj7",
+      "Bm7",
+      "E7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/055_pent_up_house.wav",
+    "audio_duration_sec": 21.33,
+    "recognition_accuracy": 0.312
+  },
+  "score": {
+    "harmonic_richness": 51.4,
+    "structural_coherence": 60.0,
+    "playability": 53.2,
+    "jazz_authenticity": 70,
+    "overall_score": 59.0,
+    "grade": "D"
+  }
+}

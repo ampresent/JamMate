@@ -1,0 +1,59 @@
+{
+  "id": 66,
+  "title": "Sugar",
+  "composer": "Stanley Turrentine",
+  "key": "Cm",
+  "tempo": 120,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Fm7",
+    "Fm7",
+    "Fm7",
+    "Fm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7"
+  ],
+  "analysis": {
+    "detected_key": "C",
+    "chord_count": 16,
+    "unique_chords": 2,
+    "chord_diversity": 0.125,
+    "avg_complexity": 35.0,
+    "iivi_count": 0,
+    "tritone_subs": 0,
+    "tonal_range": 2,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Cm7",
+      "Fm7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/066_sugar.wav",
+    "audio_duration_sec": 32.0,
+    "recognition_accuracy": 0.562
+  },
+  "score": {
+    "harmonic_richness": 46.8,
+    "structural_coherence": 19.0,
+    "playability": 31.2,
+    "jazz_authenticity": 40,
+    "overall_score": 33.6,
+    "grade": "F"
+  }
+}

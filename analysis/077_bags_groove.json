@@ -1,0 +1,61 @@
+{
+  "id": 77,
+  "title": "Bags' Groove",
+  "composer": "Milt Jackson",
+  "key": "F",
+  "tempo": 130,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "F7",
+    "F7",
+    "F7",
+    "F7",
+    "Bb7",
+    "Bb7",
+    "F7",
+    "F7",
+    "Gm7",
+    "C7",
+    "F7",
+    "F7",
+    "Gm7",
+    "C7",
+    "F7",
+    "F7"
+  ],
+  "analysis": {
+    "detected_key": "F",
+    "chord_count": 16,
+    "unique_chords": 4,
+    "chord_diversity": 0.25,
+    "avg_complexity": 30.6,
+    "iivi_count": 1,
+    "tritone_subs": 0,
+    "tonal_range": 4,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "F7",
+      "Bb7",
+      "Gm7",
+      "C7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/077_bags_groove.wav",
+    "audio_duration_sec": 29.54,
+    "recognition_accuracy": 0.312
+  },
+  "score": {
+    "harmonic_richness": 47.0,
+    "structural_coherence": 30.0,
+    "playability": 38.2,
+    "jazz_authenticity": 50,
+    "overall_score": 40.9,
+    "grade": "F"
+  }
+}

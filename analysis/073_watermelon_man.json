@@ -1,0 +1,61 @@
+{
+  "id": 73,
+  "title": "Watermelon Man",
+  "composer": "Herbie Hancock",
+  "key": "F",
+  "tempo": 120,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "F7",
+    "F7",
+    "F7",
+    "F7",
+    "Bb7",
+    "Bb7",
+    "F7",
+    "F7",
+    "Gm7",
+    "C7",
+    "F7",
+    "F7",
+    "Gm7",
+    "C7",
+    "F7",
+    "F7"
+  ],
+  "analysis": {
+    "detected_key": "F",
+    "chord_count": 16,
+    "unique_chords": 4,
+    "chord_diversity": 0.25,
+    "avg_complexity": 30.6,
+    "iivi_count": 1,
+    "tritone_subs": 0,
+    "tonal_range": 4,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "F7",
+      "Bb7",
+      "Gm7",
+      "C7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/073_watermelon_man.wav",
+    "audio_duration_sec": 32.0,
+    "recognition_accuracy": 0.188
+  },
+  "score": {
+    "harmonic_richness": 47.0,
+    "structural_coherence": 30.0,
+    "playability": 35.8,
+    "jazz_authenticity": 50,
+    "overall_score": 40.4,
+    "grade": "F"
+  }
+}

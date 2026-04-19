@@ -1,0 +1,62 @@
+{
+  "id": 86,
+  "title": "Half Nelson",
+  "composer": "Miles Davis",
+  "key": "C",
+  "tempo": 200,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Cmaj7",
+    "Cmaj7",
+    "Am7",
+    "D7",
+    "Dm7",
+    "G7",
+    "Cmaj7",
+    "Cmaj7",
+    "Cmaj7",
+    "Cmaj7",
+    "Am7",
+    "D7",
+    "Dm7",
+    "G7",
+    "Cmaj7",
+    "Cmaj7"
+  ],
+  "analysis": {
+    "detected_key": "C",
+    "chord_count": 16,
+    "unique_chords": 5,
+    "chord_diversity": 0.312,
+    "avg_complexity": 33.8,
+    "iivi_count": 4,
+    "tritone_subs": 0,
+    "tonal_range": 4,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Cmaj7",
+      "Am7",
+      "D7",
+      "Dm7",
+      "G7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/086_half_nelson.wav",
+    "audio_duration_sec": 19.2,
+    "recognition_accuracy": 0.062
+  },
+  "score": {
+    "harmonic_richness": 51.4,
+    "structural_coherence": 51.0,
+    "playability": 44.2,
+    "jazz_authenticity": 70,
+    "overall_score": 54.5,
+    "grade": "D"
+  }
+}

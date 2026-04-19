@@ -1,0 +1,64 @@
+{
+  "id": 3,
+  "title": "Blue Bossa",
+  "composer": "Kenny Dorham",
+  "key": "Cm",
+  "tempo": 160,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Cm7",
+    "Cm7",
+    "Fm7",
+    "Fm7",
+    "Dm7b5",
+    "G7",
+    "Cm7",
+    "Cm7",
+    "Ebm7",
+    "Ab7",
+    "Dbmaj7",
+    "Dbmaj7",
+    "Dm7b5",
+    "G7",
+    "Cm7",
+    "Cm7"
+  ],
+  "analysis": {
+    "detected_key": "C",
+    "chord_count": 16,
+    "unique_chords": 7,
+    "chord_diversity": 0.438,
+    "avg_complexity": 35.3,
+    "iivi_count": 3,
+    "tritone_subs": 0,
+    "tonal_range": 7,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 1,
+    "unique_chord_list": [
+      "Cm7",
+      "Fm7",
+      "Dm7b5",
+      "G7",
+      "Ebm7",
+      "Ab7",
+      "Dbmaj7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/003_blue_bossa.wav",
+    "audio_duration_sec": 24.0,
+    "recognition_accuracy": 0.125
+  },
+  "score": {
+    "harmonic_richness": 56.4,
+    "structural_coherence": 53.0,
+    "playability": 53.5,
+    "jazz_authenticity": 70,
+    "overall_score": 58.2,
+    "grade": "D"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 92,
+  "title": "La Fiesta",
+  "composer": "Chick Corea",
+  "key": "Am",
+  "tempo": 180,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 24,
+  "progression": [
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7",
+    "Am7"
+  ],
+  "analysis": {
+    "detected_key": "A",
+    "chord_count": 24,
+    "unique_chords": 1,
+    "chord_diversity": 0.042,
+    "avg_complexity": 35.0,
+    "iivi_count": 0,
+    "tritone_subs": 0,
+    "tonal_range": 1,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Am7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/092_la_fiesta.wav",
+    "audio_duration_sec": 32.0,
+    "recognition_accuracy": 1.0
+  },
+  "score": {
+    "harmonic_richness": 44.3,
+    "structural_coherence": 17.0,
+    "playability": 33.4,
+    "jazz_authenticity": 40,
+    "overall_score": 32.8,
+    "grade": "F"
+  }
+}

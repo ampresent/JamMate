@@ -1,0 +1,60 @@
+{
+  "id": 56,
+  "title": "Recorda Me",
+  "composer": "Joe Henderson",
+  "key": "Dm",
+  "tempo": 140,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Dm7",
+    "Am7",
+    "D7",
+    "Dm7",
+    "Dm7"
+  ],
+  "analysis": {
+    "detected_key": "D",
+    "chord_count": 16,
+    "unique_chords": 3,
+    "chord_diversity": 0.188,
+    "avg_complexity": 34.7,
+    "iivi_count": 0,
+    "tritone_subs": 0,
+    "tonal_range": 2,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Dm7",
+      "Am7",
+      "D7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/056_recorda_me.wav",
+    "audio_duration_sec": 27.43,
+    "recognition_accuracy": 0.062
+  },
+  "score": {
+    "harmonic_richness": 48.4,
+    "structural_coherence": 19.0,
+    "playability": 26.3,
+    "jazz_authenticity": 40,
+    "overall_score": 33.1,
+    "grade": "F"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 43,
+  "title": "Lady Bird",
+  "composer": "Tadd Dameron",
+  "key": "C",
+  "tempo": 160,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Cmaj7",
+    "Cmaj7",
+    "Cm7",
+    "F7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Am7",
+    "D7",
+    "Gmaj7",
+    "Gmaj7",
+    "Gbmaj7",
+    "Gbmaj7",
+    "Fm7",
+    "Bb7",
+    "Cmaj7",
+    "Cmaj7"
+  ],
+  "analysis": {
+    "detected_key": "Bb",
+    "chord_count": 16,
+    "unique_chords": 10,
+    "chord_diversity": 0.625,
+    "avg_complexity": 34.1,
+    "iivi_count": 3,
+    "tritone_subs": 0,
+    "tonal_range": 7,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 3,
+    "unique_chord_list": [
+      "Cmaj7",
+      "Cm7",
+      "F7",
+      "Bbmaj7",
+      "Am7",
+      "D7",
+      "Gmaj7",
+      "Gbmaj7",
+      "Fm7",
+      "Bb7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/043_lady_bird.wav",
+    "audio_duration_sec": 24.0,
+    "recognition_accuracy": 0.188
+  },
+  "score": {
+    "harmonic_richness": 61.0,
+    "structural_coherence": 59.0,
+    "playability": 59.8,
+    "jazz_authenticity": 70,
+    "overall_score": 62.4,
+    "grade": "C"
+  }
+}

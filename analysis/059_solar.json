@@ -1,0 +1,72 @@
+{
+  "id": 59,
+  "title": "Solar",
+  "composer": "Miles Davis",
+  "key": "Cm",
+  "tempo": 140,
+  "style": "jazz",
+  "form": "ABCA",
+  "bars": 24,
+  "progression": [
+    "Cm7",
+    "Cm7",
+    "Fm7",
+    "Bb7",
+    "Ebmaj7",
+    "Ebmaj7",
+    "Am7",
+    "D7",
+    "Gmaj7",
+    "Gmaj7",
+    "Gmaj7",
+    "Gmaj7",
+    "Cm7",
+    "Cm7",
+    "Fm7",
+    "Bb7",
+    "Ebmaj7",
+    "Ebmaj7",
+    "Am7",
+    "D7",
+    "Gmaj7",
+    "Gmaj7",
+    "Cm7",
+    "Cm7"
+  ],
+  "analysis": {
+    "detected_key": "Bb",
+    "chord_count": 24,
+    "unique_chords": 7,
+    "chord_diversity": 0.292,
+    "avg_complexity": 34.2,
+    "iivi_count": 6,
+    "tritone_subs": 0,
+    "tonal_range": 7,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Cm7",
+      "Fm7",
+      "Bb7",
+      "Ebmaj7",
+      "Am7",
+      "D7",
+      "Gmaj7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/059_solar.wav",
+    "audio_duration_sec": 41.14,
+    "recognition_accuracy": 0.125
+  },
+  "score": {
+    "harmonic_richness": 51.1,
+    "structural_coherence": 64.0,
+    "playability": 47.9,
+    "jazz_authenticity": 70,
+    "overall_score": 59.1,
+    "grade": "D"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 97,
+  "title": "Sister Sadie",
+  "composer": "Horace Silver",
+  "key": "Bb",
+  "tempo": 150,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Gm7",
+    "C7",
+    "F7",
+    "F7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Gm7",
+    "C7",
+    "F7",
+    "Bbmaj7"
+  ],
+  "analysis": {
+    "detected_key": "Bb",
+    "chord_count": 16,
+    "unique_chords": 4,
+    "chord_diversity": 0.25,
+    "avg_complexity": 33.4,
+    "iivi_count": 1,
+    "tritone_subs": 0,
+    "tonal_range": 4,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Bbmaj7",
+      "Gm7",
+      "C7",
+      "F7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/097_sister_sadie.wav",
+    "audio_duration_sec": 25.6,
+    "recognition_accuracy": 0.0
+  },
+  "score": {
+    "harmonic_richness": 49.2,
+    "structural_coherence": 30.0,
+    "playability": 32.0,
+    "jazz_authenticity": 50,
+    "overall_score": 40.2,
+    "grade": "F"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": 47,
+  "title": "Mercy Mercy Mercy",
+  "composer": "Joe Zawinul",
+  "key": "Bb",
+  "tempo": 110,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 16,
+  "progression": [
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Ebmaj7",
+    "Ebmaj7",
+    "Ebmaj7",
+    "Ebmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7",
+    "Bbmaj7"
+  ],
+  "analysis": {
+    "detected_key": "Bb",
+    "chord_count": 16,
+    "unique_chords": 2,
+    "chord_diversity": 0.125,
+    "avg_complexity": 35.0,
+    "iivi_count": 0,
+    "tritone_subs": 0,
+    "tonal_range": 2,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Bbmaj7",
+      "Ebmaj7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/047_mercy_mercy_mercy.wav",
+    "audio_duration_sec": 34.91,
+    "recognition_accuracy": 0.0
+  },
+  "score": {
+    "harmonic_richness": 46.8,
+    "structural_coherence": 19.0,
+    "playability": 20.0,
+    "jazz_authenticity": 40,
+    "overall_score": 31.4,
+    "grade": "F"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 98,
+  "title": "Tenor Madness",
+  "composer": "Sonny Rollins",
+  "key": "Bb",
+  "tempo": 140,
+  "style": "jazz",
+  "form": "blues",
+  "bars": 12,
+  "progression": [
+    "Bb7",
+    "Eb7",
+    "Bb7",
+    "Bb7",
+    "Eb7",
+    "Eb7",
+    "Bb7",
+    "Bb7",
+    "F7",
+    "Eb7",
+    "Bb7",
+    "F7"
+  ],
+  "analysis": {
+    "detected_key": "Bb",
+    "chord_count": 12,
+    "unique_chords": 3,
+    "chord_diversity": 0.25,
+    "avg_complexity": 30.0,
+    "iivi_count": 0,
+    "tritone_subs": 0,
+    "tonal_range": 3,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Bb7",
+      "Eb7",
+      "F7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/098_tenor_madness.wav",
+    "audio_duration_sec": 20.57,
+    "recognition_accuracy": 0.083
+  },
+  "score": {
+    "harmonic_richness": 46.5,
+    "structural_coherence": 21.0,
+    "playability": 31.7,
+    "jazz_authenticity": 40,
+    "overall_score": 34.3,
+    "grade": "F"
+  }
+}

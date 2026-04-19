@@ -1,0 +1,69 @@
+{
+  "id": 79,
+  "title": "Bolivia",
+  "composer": "Cedar Walton",
+  "key": "Cm",
+  "tempo": 180,
+  "style": "jazz",
+  "form": "AB",
+  "bars": 24,
+  "progression": [
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Fm7",
+    "Fm7",
+    "Cm7",
+    "Cm7",
+    "Dm7b5",
+    "G7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Cm7",
+    "Fm7",
+    "Fm7",
+    "Cm7",
+    "Cm7",
+    "Dm7b5",
+    "G7",
+    "Cm7",
+    "Cm7"
+  ],
+  "analysis": {
+    "detected_key": "C",
+    "chord_count": 24,
+    "unique_chords": 4,
+    "chord_diversity": 0.167,
+    "avg_complexity": 35.4,
+    "iivi_count": 2,
+    "tritone_subs": 0,
+    "tonal_range": 4,
+    "extensions_used": 0,
+    "extension_ratio": 0.0,
+    "cadence_strength": 0.0,
+    "chromatic_moves": 0,
+    "unique_chord_list": [
+      "Cm7",
+      "Fm7",
+      "Dm7b5",
+      "G7"
+    ]
+  },
+  "simulation": {
+    "wav_path": "audio/079_bolivia.wav",
+    "audio_duration_sec": 32.0,
+    "recognition_accuracy": 0.0
+  },
+  "score": {
+    "harmonic_richness": 48.3,
+    "structural_coherence": 37.0,
+    "playability": 27.4,
+    "jazz_authenticity": 50,
+    "overall_score": 41.2,
+    "grade": "F"
+  }
+}
